@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 sudo apt-get update -y
 sudo apt-get install -y proxychains
 echo "domain-name-servers 8.8.8.8;">> /etc/dhcp/dhclient.conf
